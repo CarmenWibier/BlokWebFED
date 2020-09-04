@@ -60,11 +60,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -surface plane-
 
-**Je opdracht:** (https://www.starbucks.nl/ "Starbucks")
+**Je opdracht:** [Starbucks](https://www.starbucks.nl/)
 
 **Screenshot(s):**
 
-(images/koffiezoeker.jpg) (images/smaak.jpg) (images/voorpagina.jpg)
+![koffiezoeker](images/koffiezoeker.jpg) ![smaak](images/smaak.jpg) ![voorpagina](images/voorpagina.jpg) 
 
 **Breakdown-schets(en):**
 

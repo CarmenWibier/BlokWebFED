@@ -64,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![koffiezoeker](images/koffiezoeker.jpg) ![smaak](images/smaak.jpg) ![voorpagina](images/voorpagina.jpg) 
+![koffiezoeker](images/koffiezoeker.JPG) ![smaak](images/smaak.JPG) ![voorpagina](images/voorpagina.JPG) 
 
 **Breakdown-schets(en):**
 

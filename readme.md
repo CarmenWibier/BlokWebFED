@@ -44,6 +44,7 @@ De html ging zonder problemen, het was wel lastig om de fotos out de source code
 **Screenshot(s):**
 
 ![koffiezoekerV1](images/koffiezoekerV1.JPG)
+![onzekoffieV1](images/onzekoffieV1.JPG)
 
 ### Agenda voor meeting
 

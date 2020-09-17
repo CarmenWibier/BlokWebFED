@@ -39,15 +39,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+De html ging zonder problemen, het was wel lastig om de fotos out de source code te halen.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![koffiezoeker](images/.JPG)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+>Romeo en ik gaan op:
+
+1. De dag na de les 19 septemeber 2020 begin maken met CSS.
+2. Vragen opstellen voor de studentenassistenten. 
+3. Kijken of we al iets met Javascript kunnen doen?
+4. Huiswerk van andere medestudenten bekijken voor eventuele aanvulling van eigen proces.
 
 ### Verslag van meeting
 

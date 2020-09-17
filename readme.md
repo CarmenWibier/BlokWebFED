@@ -39,7 +39,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-De html ging zonder problemen, het was wel lastig om de fotos out de source code te halen.
+De html ging zonder problemen, het was wel lastig om de fotos uit de source code te halen. 
+Het was ook fijn om te kijken hoe de website was gebouwd en daar idee mee op te doen.
 
 **Screenshot(s):**
 

@@ -49,12 +49,20 @@ Het was ook fijn om te kijken hoe de website was gebouwd en daar idee mee op te 
 
 ### Agenda voor meeting
 
->Romeo en ik gaan op:
+>Planning voor aankomende weken:
 
 1. De dag na de les 19 septemeber 2020 begin maken met CSS.
 2. Vragen opstellen voor de studentenassistenten. 
 3. Kijken of we al iets met Javascript kunnen doen?
 4. Huiswerk van andere medestudenten bekijken voor eventuele aanvulling van eigen proces.
+
+Vragen: 
+1. Div, wanneer wel en wanneer niet. 
+2. Hoe moet je een hamburgermenu maken
+3. Hamburger menu, logo en nog een item in nav bar, die wel in een <ul> of niet?
+4. Mobile version eerste 4 items zichtbaar en de rest valt onder meer en op desktop versie zie je alle onderwerpen in de nav bar. Hoe codeer je dit?
+5. Positionering (Akshay)
+6. Logo in header staat niet in het midden (Karlijn)
 
 ### Verslag van meeting
 

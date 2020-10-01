@@ -31,9 +31,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+Ik heb aan de css gewerk voor de index pagina. Doordat ik verschillende onderwerpen van het huiswerk kon toepassen heb ik dit zonder te veel tegenslag kunnen doen.
 
+**Screenshot(s):**
+![onzekoffieV2](images/onzekoffieV2.JPG)
+![onzekoffieV2deel2](images/onzekoffieV2deel2.JPG)
 
+### Agenda voor meeting
+
+>Planning voor aankomende weken:
+
+1. Na het feedback gesprek verder met de 2e pagina css en beginnen met javascript.
+2. Vragen opstellen voor de studentenassistenten. 
+3. Huiswerk van andere medestudenten bekijken voor eventuele aanvulling van eigen proces.
+
+>Vragen: 
+1. Opmaak van een link
+2. Beste manier om een IMG en tekst op één zelfde lijn te krijgen.
+3. Zijn er nog elementen die in de css globaler/snellere manier gescherven kunnen worden
 
 ## Voortgang 1 (week 3)
 

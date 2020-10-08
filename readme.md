@@ -51,6 +51,9 @@ Ik heb aan de css gewerk voor de index pagina. Doordat ik verschillende onderwer
 2. Beste manier om een IMG en tekst op één zelfde lijn te krijgen.
 3. Zijn er nog elementen die in de css globaler/snellere manier gescherven kunnen worden
 
+### Verslag van meeting
+Ik heb wat tips gekregen hoe ik bepaalde elementen beter kon schrijven in mijn html. Verder samen nog naar de Starbucks website gekeken om bepaalde dingen te begrijpen.
+
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
@@ -81,8 +84,8 @@ Vragen:
 6. Logo in header staat niet in het midden (Karlijn)
 
 ### Verslag van meeting
+Goed op weg met html. vragen die ik gestelt heb over mijn navigatie zijn beantwoord en ik kan hier dus verder mee. Ook algemene tips over de css zijn gegeven en zal ik volgende week uitvoeren.
 
--na afloop snel uitkomsten vastleggen-
 
 
 

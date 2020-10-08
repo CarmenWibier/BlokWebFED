@@ -7,10 +7,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
-
+1. [Starbucks](https://www.starbucks.nl/)
+2. [FED Content](https://dlo.mijnhva.nl/d2l/le/content/192602/Home)
+3. [W3Schools](https://www.w3schools.com/)
+4. [Css Tricks](https://css-tricks.com/styling-links-with-real-underlines/)
+5. [Stackoverflow](https://stackoverflow.com/questions/11969427/margin-bottom-for-a-link-elements)
+6. []()
 
 
 ## Eindgesprek (week 7/8)

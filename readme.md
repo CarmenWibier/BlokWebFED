@@ -17,19 +17,40 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+### Stand van zaken
+Ik raakte erg gefrustreerd. Ik heb gevonden wat waarschijnlijk nodig is om mijn doel te berijken maar ik krijg het niet werkend, door een fout in mijn planning heb ik nu geen tijd meer om het zelf dit probleem op te lossen of om hulp te vragen
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![koffiezoekerV3](images/koffiezoekerV3.JPG)
+![koffiezoekerV3deel2](images/koffiezoekerV3deel2.JPG)
 
+### Agenda voor meeting
 
+1. Vragen om advies en hulp 
+3. Bekijken of ik het met een herkansing alsnog kan halen
+
+### Verslag van meeting
+....
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+Ik ben verder gegaan met css van de 2e pagina. Ook onderzoeken hoe Starbucks dit heeft gedaan.
 
+**Screenshot(s):**
+![koffiezoekerV3](images/koffiezoekerV3.JPG)
+![koffiezoekerV3deel2](images/koffiezoekerV3deel2.JPG)
 
+### Agenda voor meeting
+
+>Planning voor aankomende weken:
+
+1. Na het feedback gesprek verder met de 2e pagina css en beginnen met javascript. 
+3. Huiswerk van andere medestudenten bekijken voor eventuele aanvulling van eigen proces.
+
+### Verslag van meeting
+Ik heb de meeting helaas gemist door een fout in mijn planning. Ik heb wel zelf hulp gezocht bij de dingen die ik niet begreep zodat ik alsnog verder kon.
 
 ## Voortgang 2 (week 5)
 

@@ -22,8 +22,8 @@ Ik raakte erg gefrustreerd. Ik heb gevonden wat waarschijnlijk nodig is om mijn 
 
 **Screenshot(s):**
 
-![koffiezoekerV3](images/koffiezoekerV3.JPG)
-![koffiezoekerV3deel2](images/koffiezoekerV3deel2.JPG)
+![koffiezoekerV3](koffiezoekerV3.JPG)
+![koffiezoekerV3deel2](koffiezoekerV3deel2.JPG)
 
 ### Agenda voor meeting
 
@@ -39,8 +39,8 @@ Ik raakte erg gefrustreerd. Ik heb gevonden wat waarschijnlijk nodig is om mijn 
 Ik ben verder gegaan met css van de 2e pagina. Ook onderzoeken hoe Starbucks dit heeft gedaan.
 
 **Screenshot(s):**
-![koffiezoekerV3](images/koffiezoekerV3.JPG)
-![koffiezoekerV3deel2](images/koffiezoekerV3deel2.JPG)
+![koffiezoekerV3](koffiezoekerV3.JPG)
+![koffiezoekerV3deel2](koffiezoekerV3deel2.JPG)
 
 ### Agenda voor meeting
 

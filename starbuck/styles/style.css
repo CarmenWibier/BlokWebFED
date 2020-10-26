@@ -45,6 +45,53 @@ header nav a img{
     max-width: 15px;
 }
 
+form {
+    position:fixed;
+	left:0; right:0;
+    top:0;
+    transform:translateY(-100%);
+}
+
+form.toonForm {
+	transform:translateY(0%);
+}
+
+.hamburger {
+
+   position:absolute;
+   width:7em;
+   margin:0; padding:.25em;
+   
+   top:100%;
+   left:calc(50% - 3.5em);
+   
+   
+   font-size:1em;
+   font-weight:normal;
+   text-align:right;
+   line-height:2em;
+   
+   background-color:inherit;
+   cursor:pointer;
+}
+
+fieldset {
+    --humptieSize:3.5rem;
+    position:relative;
+    max-width:36em;
+    margin:0 auto;
+    padding:0;
+    border:none;
+}
+
+fieldset div {
+    margin:0 ;
+    padding:var(--humptieSize) 0 calc(var(--humptieSize) / 2);
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(8.5em, 1fr));
+}
+
+
 
 .onzekoffieachtergrond {
     position: relative;
@@ -171,4 +218,84 @@ header nav a img{
     letter-spacing: .12em;
     word-spacing: 1px;
     font-size: 14px;
+}
+
+/*Koffiezoeker pagina 2*/
+.koffiezoekbg {
+    box-sizing: border-box;
+    overflow: hidden;
+    background: url("https://www.starbucks.nl/static/images/bg-finder-top.png");
+    padding-bottom: 150px;
+    position: relative;
+    transition: all .1s ease-out;
+    
+
+}
+.koffiezoekcontainer h3{
+    font-size: 20px;
+    font-family: 'Crete Round',Georgia,'Times New Roman',serif;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+.koffiezoekcontainer {
+    margin: auto;
+    padding: 10px;
+
+}
+
+/* Footer overflow hidden, opties staan in een carousel, scrolled doormiddel van click*/
+.grid {
+    height: 700px;
+}
+
+figure {
+
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    vertical-align: top;
+    padding-bottom: 20px;
+    max-width: 100px;
+    margin: 0 12px 6px;
+    display: inline-block;
+}
+figure img{
+    max-width: 100%;
+}
+
+
+/*Footer*/
+.footer-top {
+    padding: 25px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.footer-top a img{
+    width: 15px;
+}
+.footer-dropdown h4 a{
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.25;
+    position: relative;
+}
+
+.footer-dropdown a{
+    color: #3d3935;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.footer-dropdown li{
+    margin: 0 0 20px;
+}
+
+.footer-dropdown h4 label{
+    padding: 10px 20px;
+    display: inline-block;
+    float: right;
+}
+
+footer {
+    background-color: white;
 }

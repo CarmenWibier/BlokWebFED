@@ -4,18 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koffiezoeker</title>
+    
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="img/logo.png">
+        <div id="groenebalk"></div>
+<header>
+    <nav>
+     <img src="img/logo.png">
+     <a href="url"> 
+        <img src="img/locator.png">
+     </a>
+     
+     <form>
+        <h2 class="hamburger">...</h2>
+        <fieldset>
+     <div>
+        <input type="radio" checked>
+        <label for="">Koffie</label>
+     </div>
+    <div>
+            <input type="radio" checked>
+            <label for="">Menu</label>
+        </div>
+        <div>
+                <input type="radio" checked>
+                <label for="">KoffieHuis</label>
+                </div>
+            <div>
+                    <input type="radio" checked>
+                    <label for="">Carriére</label>
+                    </div>
+                    <div>
+                        <input type="radio" checked>
+                        <label for="">Duurzaamheid</label>
+                        </div>
+                        <div>
+                            <input type="radio" checked>
+                            <label for="">Over Ons</label>
+                            </div>
+                        </fieldset>
+    </form>
+    </nav>
+</header>
     </header>
     <main>
+        <div class="koffiezoekbg">
+        <div class="koffiezoekcontainer">
         <h2>Koffiezoeker</h2>
         <p>Onze koffiemeesters hebben 3 vragen om je te helpen de koffie te vinden waarvan je zeker zult houden</p>
 
-        <p> Welke <span>smaak</span> spreekt je het meeste aan?</p>
-
+        <h3>1 Welke <span>smaak</span> spreekt je het meeste aan?</h3>
+        <div class="grid">
         <figure>
             <img src="img/koffiezoeker.geel.png">
             <figcapation>Hartig</figcapation>
@@ -32,89 +74,138 @@
             <img src="img/koffiezoeker.oranje.png">
             <figcapation>Gekarameliseerd</figcapation>
         </figure>
-    </main>
-</body>
-<footer>
-    <a href="url" title="Facebook"> <img src="img/facebook-icoon.png"> </a>
-    <h4>   
-        <a href="" title="Over ons"> Over ons</a>
-        <!--label een icoon geven-->
-        <label for="dropdown" data-icon="^"></label>
-    </h4>
-    <ol>
-        <li>
-            <a href="url">Onze geschiedenis</a>
-        </li>
-        <li>
-            <a href="url">Ons bedrijf</a>
-        </li>
-        <li>
-            <a href="url">Werken bij Starbucks</a>
-        </li>
-    </ol>
-    
-    <h4>   
-        <a href="" title="Klantenservice"> Klantenservice</a>
-        
-        <label for="dropdown" data-icon="^"></label>
-    </h4>
-    
-    <h4>   
-        <a href="" title="Voor het bedrijfsleven"> Voor het bedrijfsleven</a>
-        <label for="dropdown" data-icon="^"></label>
-    </h4>
-    <ol>
-        <li>
-            <a href="url">Licensing</a>
-        </li>
-        <li>
-            <a href="url">Foodservices</a>
-        </li>
-        <li>
-            <a href="url">Premium self-serve</a>
-        </li>
-        <li>
-            <a href="url">Seattle's best coffee</a>
-        </li>
-    </ol>
+    </div>
 
-    <h4>   
-        <a href="" title="Handige links"> Handige links</a>
-        <label for="dropdown" data-icon="^"></label>
-    </h4>
-    <ol>
-        <li>
-            <a href="url">Vestiging zoeken</a>
-        </li>
-        <li>
-            <a href="url">Voor partners</a>
-        </li>
-    </ol>
-    <ul>
-        <li>
-            <a ><img src="" alt="Nederlandse vlag"></a>
-        </li>
-        <!--Streepje tussen de vlag en tekst-->
-        <li class="native language"> Nederlands</li>
-        <a href="url">Englisch (NL)</a>
-    </ul>
-    <ul>
-        <li>
-            <a href="url">Webtoegankelijkheid</a>
-        </li>
-        <li>
-            <a href="url">Privacyverklaring</a>
-        </li>
-        <li>
-            <a href="url">Gebruiksvoorwaarden</a>
-        </li>
-        <li>
-            <a href="url">Siteoverzicht</a>
-        </li>
-        <li>
-            <a href="url">Cookie Voorkeursinstellingen</a>
-        </li>
-    </ul>
-    <p>© 2019 Starbucks Coffee Company. Alle rechten voorbehouden</p>
-</footer>
+        <h3>2 Welke <span>sensatie</span> vind jij het fijnst?</h3>
+       
+        <div class="grid">
+        <figure>
+            <img src="img/koffiezoeker.fris.png">
+            <figcapation>Fris</figcapation>
+        </figure>
+        <figure>
+            <img src="img/koffiezoeker.zacht.png">
+            <figcapation>Zacht</figcapation>
+        </figure>
+        <figure>
+            <img src="img/koffiezoeker.rijk.png">
+            <figcapation>Rijk</figcapation>
+        </figure>
+    </div>
+    
+    <h3>3 Hoe <span>intense</span> drink je je koffie het liefst?</h3>
+   
+    <div class="grid">
+        <figure>
+            <img src="img/koffiezoeker.verfijnd.png">
+            <figcapation>Verfijnd en zacht</figcapation>
+        </figure>
+        <figure>
+            <img src="img/koffiezoeker.medium.png">
+            <figcapation>Medium en gebalanceerd</figcapation>
+        </figure>
+        <figure>
+            <img src="img/koffiezoeker.intens.png">
+            <figcapation>Intens en robuust</figcapation>
+        </figure>
+    </div>
+    </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <a href="url" title="Facebook"> <img src="img/facebook-icoon.png"> </a>
+        </div>
+    
+    
+    
+        <div class="footer-dropdown">
+        <h4>   
+            <a href="" title="Over ons"> Over ons</a>
+            <!--label een icoon geven-->
+            <label for="dropdown" data-icon="pijltje">^</label>
+        </h4>
+        <ol>
+            <li>
+                <a href="url">Onze geschiedenis</a>
+            </li>
+            <li>
+                <a href="url">Ons bedrijf</a>
+            </li>
+            <li>
+                <a href="url">Werken bij Starbucks</a>
+            </li>
+        </ol>
+        
+        <h4>   
+            <a href="" title="Klantenservice"> Klantenservice</a>
+            
+            <label for="dropdown" data-icon="pijltje">^</label>
+        </h4>
+        
+        <h4>   
+            <a href="" title="Voor het bedrijfsleven"> Voor het bedrijfsleven</a>
+            <label for="dropdown" data-icon="pijltje">^</label>
+        </h4>
+        <ol>
+            <li>
+                <a href="url">Licensing</a>
+            </li>
+            <li>
+                <a href="url">Foodservices</a>
+            </li>
+            <li>
+                <a href="url">Premium self-serve</a>
+            </li>
+            <li>
+                <a href="url">Seattle's best coffee</a>
+            </li>
+        </ol>
+    
+        <h4>   
+            <a href="" title="Handige links"> Handige links</a>
+            <label for="dropdown" data-icon="pijltje">^</label>
+        </h4>
+        <ol>
+            <li>
+                <a href="url">Vestiging zoeken</a>
+            </li>
+            <li>
+                <a href="url">Voor partners</a>
+            </li>
+        </ol>
+        </div>
+    
+        <div class="footer-onder">
+        <ul>
+            <li>
+                <a ><img src="" alt="Nederlandse vlag"></a>
+            </li>
+            <!--Streepje tussen de vlag en tekst-->
+            <li class="native language"> Nederlands</li>
+            <a href="url">Englisch (NL)</a>
+        </ul>
+        <ul>
+            <li>
+                <a href="url">Webtoegankelijkheid</a>
+            </li>
+            <li>
+                <a href="url">Privacyverklaring</a>
+            </li>
+            <li>
+                <a href="url">Gebruiksvoorwaarden</a>
+            </li>
+            <li>
+                <a href="url">Siteoverzicht</a>
+            </li>
+            <li>
+                <a href="url">Cookie Voorkeursinstellingen</a>
+            </li>
+        </ul>
+        <p>© 2019 Starbucks Coffee Company. Alle rechten voorbehouden</p>
+        </div>
+    </footer>
+    
+<script src="script.js"></script>
+</body>
 </html>

@@ -6,47 +6,29 @@
     <title>Koffiezoeker</title>
     
     <link href="styles/style.css" rel="stylesheet">
+    
 </head>
 
 <body>
     <header>
-        <div id="groenebalk"></div>
-<header>
+    <div id="groenebalk"></div>
     <nav>
      <img src="img/logo.png">
      <a href="url"> 
         <img src="img/locator.png">
      </a>
      
-     <form>
-        <h2 class="hamburger">...</h2>
-        <fieldset>
-     <div>
-        <input type="radio" checked>
-        <label for="">Koffie</label>
-     </div>
-    <div>
-            <input type="radio" checked>
-            <label for="">Menu</label>
-        </div>
-        <div>
-                <input type="radio" checked>
-                <label for="">KoffieHuis</label>
-                </div>
-            <div>
-                    <input type="radio" checked>
-                    <label for="">Carriére</label>
-                    </div>
-                    <div>
-                        <input type="radio" checked>
-                        <label for="">Duurzaamheid</label>
-                        </div>
-                        <div>
-                            <input type="radio" checked>
-                            <label for="">Over Ons</label>
-                            </div>
-                        </fieldset>
-    </form>
+     <h2>...</h2>
+     <div  class="hamburger-menu">
+        <ul>
+            <li><a href="#">Koffie</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Koffiehuis</a></li>
+            <li><a href="#">Carriére</a></li>
+            <li><a href="#">Duurzaamheid</a></li>
+            <li><a href="#">Over ons</a></li>
+          </ul>
+          </div>
     </nav>
 </header>
     </header>
@@ -57,34 +39,34 @@
         <p>Onze koffiemeesters hebben 3 vragen om je te helpen de koffie te vinden waarvan je zeker zult houden</p>
 
         <h3>1 Welke <span>smaak</span> spreekt je het meeste aan?</h3>
-        <div class="grid">
+        <div class="grid" id="stap1">
         <figure>
-            <img src="img/koffiezoeker.geel.png">
+            <a href="#stap2"><img src="img/koffiezoeker.geel.png"></a>
             <figcapation>Hartig</figcapation>
         </figure>
         <figure>
-            <img src="img/koffiezoeker.paars.png">
+            <a href="#stap2"><img src="img/koffiezoeker.paars.png"></a>
             <figcapation>Fruitig</figcapation>
         </figure>
         <figure>
-            <img src="img/koffiezoeker.bruin.png">
+            <a href="#stap2"><img src="img/koffiezoeker.bruin.png"></a>
             <figcapation>Geroosterd</figcapation>
         </figure>
         <figure>
-            <img src="img/koffiezoeker.oranje.png">
+            <a href="#stap2"><img src="img/koffiezoeker.oranje.png"></a>
             <figcapation>Gekarameliseerd</figcapation>
         </figure>
     </div>
 
-        <h3>2 Welke <span>sensatie</span> vind jij het fijnst?</h3>
+        <h3 id="stap2">2 Welke <span>sensatie</span> vind jij het fijnst?</h3>
        
         <div class="grid">
         <figure>
-            <img src="img/koffiezoeker.fris.png">
+            <a href="#stap3"><img src="img/koffiezoeker.fris.png"></a>
             <figcapation>Fris</figcapation>
         </figure>
         <figure>
-            <img src="img/koffiezoeker.zacht.png">
+            <a href="#stap3"><img src="img/koffiezoeker.zacht.png"></a>
             <figcapation>Zacht</figcapation>
         </figure>
         <figure>
@@ -93,7 +75,7 @@
         </figure>
     </div>
     
-    <h3>3 Hoe <span>intense</span> drink je je koffie het liefst?</h3>
+    <h3 id="stap3">3 Hoe <span>intense</span> drink je je koffie het liefst?</h3>
    
     <div class="grid">
         <figure>
@@ -122,7 +104,6 @@
         <div class="footer-dropdown">
         <h4>   
             <a href="" title="Over ons"> Over ons</a>
-            <!--label een icoon geven-->
             <label for="dropdown" data-icon="pijltje">^</label>
         </h4>
         <ol>
@@ -178,14 +159,8 @@
     
         <div class="footer-onder">
         <ul>
-            <li>
-                <a ><img src="" alt="Nederlandse vlag"></a>
-            </li>
-            <!--Streepje tussen de vlag en tekst-->
-            <li class="native language"> Nederlands</li>
-            <a href="url">Englisch (NL)</a>
-        </ul>
-        <ul>
+            <li> Nederlands</li>
+            <li> Englisch (NL)</li>
             <li>
                 <a href="url">Webtoegankelijkheid</a>
             </li>
@@ -205,7 +180,5 @@
         <p>© 2019 Starbucks Coffee Company. Alle rechten voorbehouden</p>
         </div>
     </footer>
-    
-<script src="script.js"></script>
 </body>
 </html>

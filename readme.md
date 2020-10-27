@@ -22,8 +22,8 @@ Ik raakte erg gefrustreerd. Ik heb gevonden wat waarschijnlijk nodig is om mijn 
 
 **Screenshot(s):**
 
-![koffiezoekerV3](koffiezoekerV3.JPG)
-![koffiezoekerV3deel2](koffiezoekerV3deel2.JPG)
+![koffiezoekerV3](koffiezoekerV4.JPG)
+![koffiezoekerV3deel2](koffiezoekerV4deel2.JPG)
 
 ### Agenda voor meeting
 

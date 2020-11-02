@@ -1,20 +1,46 @@
-/*jslint browser: true, devel: true, eqeq: true, plusplus: true, sloppy: true, vars: true, white: true*/
-/*eslint-env browser*/
-/*eslint 'no-console':0*/
-var deButton = document.querySelector("h2");
+var deButton = document.querySelector("button");
 
-function doeFormNeerEnOp(){
-	let hetFormulier = document.querySelector("form");
-	hetFormulier.classList.toggle("toonForm");
+deButton.addEventListener("click", veranderHetMenu);
+
+function veranderHetMenu() {
+    
+  let hetMenu = document.querySelector(".hamburger-menu");
+    
+    hetMenu.classList.toggle("anders");
+  }
+
+  
+var hetLabel = document.querySelector(".labelOverOns");
+
+hetLabel.addEventListener("click", veranderDeDropdown);
+
+function veranderDeDropdown() {
+    
+  let hetMenu = document.querySelector(".overOns");
+    
+    hetMenu.classList.toggle("actief");
+  }
+
+var hetLabelB = document.querySelector(".labelBedrijfsleven");
+
+hetLabelB.addEventListener("click", veranderDeDropdownB);
+  
+function veranderDeDropdownB() {
+      
+  let deDropdown = document.querySelector(".bedrijfsleven");
+      
+    deDropdown.classList.toggle("actief");
 }
 
-deButton.addEventListener("click", doeFormNeerEnOp);
+var hetLabelH = document.querySelector(".labelHandigeLinks");
 
-function hitEnterOpDeButton(e){
-    if(e.code == "Enter" || e.code == "Space") {
-        doeFormNeerEnOp();
-    }
+hetLabelH.addEventListener("click", veranderDeDropdownH);
+  
+function veranderDeDropdownH() {
+      
+  let deDropdownH = document.querySelector(".handigeLinks");
+      
+    deDropdownH.classList.toggle("actief");
 }
-
-deButton.addEventListener("keydown", hitEnterOpDeButton);
-
+  
+  

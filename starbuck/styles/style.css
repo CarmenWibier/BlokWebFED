@@ -33,19 +33,64 @@ p {
     min-height: 10px;
 }
 
+
 /* nav */
 header nav{
     background-color: #f0f0f0;
     padding-top: 12px;
     display: flex;
     align-items: center;
-    justify-content:space-between;
     padding: 10px;
 }
 
-header nav a img{
-    max-width: 15px;
+header nav img {
+    width: 30px;
 }
+
+header nav a img{
+    width: 15px;
+margin-right: 15px;
+}
+
+.logo {
+    width: auto;
+    margin-right: 25px;
+}
+
+
+/* Hamburger menu */
+.hamburger-menu {
+    text-transform: uppercase;
+    letter-spacing: .18em;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    background-color: black;
+    padding: 10px;
+}
+.hamburger-menu ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.6;
+    font-size: 14px;
+}
+.hamburger-menu ul {
+    list-style-type: none;
+}
+
+header button {
+    border: none;
+}
+
+header nav .hamburger-menu {
+    opacity: 0;
+    transform: translateX(100%);
+    transition-duration: 0.5s;
+}
+
+header nav .hamburger-menu.anders {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
 
 /*Onze koffie*/
 .onzekoffieachtergrond {
@@ -91,8 +136,13 @@ header nav a img{
     margin-bottom: 15px;
 }
 
-/*Koffiezoeker*/
+.onzekoffie button:hover {
+    color: white;
+    background-color: #006341;
+}
 
+
+/*Koffiezoeker*/
 .koffiezoeker {
     padding: 1em;
     text-align:center;
@@ -118,7 +168,6 @@ header nav a img{
 
 
 /*Zeldzaam*/
-
 .zeldzaamachtergrond {
     position: relative;
     background-image: url("https://www.starbucks.nl/media/Reserve-Coffee-Background_tcm15-3969.png");
@@ -144,8 +193,8 @@ header nav a img{
     height: auto;
 }
 
-/*Koffiezetter*/
 
+/*Koffiezetter*/
 .koffiezetten {
     background-color: #1b1f23;
     padding: 2em;
@@ -196,6 +245,10 @@ header nav a img{
     font-style: italic;
     padding-bottom: 10px;
 }
+.koffiezoekcontainer h2 {
+    
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
 
 .koffiezoekcontainer {
     margin: auto;
@@ -204,13 +257,12 @@ header nav a img{
 }
 
 .grid {
-    height: 700px;
+    
+    margin: 20px 10px 10px 30px;
+    height: 450px;
 }
 
 figure {
-
-    text-align: center;
-    text-transform: uppercase;
     line-height: 1.5em;
     vertical-align: top;
     padding-bottom: 20px;
@@ -221,6 +273,18 @@ figure {
 
 figure img{
     max-width: 100%;
+}
+
+figcaption {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 span {
+    text-decoration-style: dotted;
 }
 
 
@@ -279,3 +343,39 @@ footer {
     color: #3d3935;
   text-decoration: none;
 }
+
+/* Footer actief */
+
+.overOns {
+    opacity: 0;
+    transform: translateY(100%);
+    transition-duration: 0.5s;
+}
+
+.overOns.actief {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.bedrijfsleven {
+    opacity: 0;
+    transform: translateY(100%);
+    transition-duration: 0.5s;
+}
+
+.bedrijfsleven.actief {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.handigeLinks {
+    opacity: 0;
+    transform: translateY(100%);
+    transition-duration: 0.5s;
+}
+
+.handigeLinks.actief {
+    opacity: 1;
+    transform: translateY(0%);
+}
+

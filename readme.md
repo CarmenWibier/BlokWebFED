@@ -14,6 +14,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 5. [Stackoverflow](https://stackoverflow.com/questions/11969427/margin-bottom-for-a-link-elements)
 6. []()
 
+## Herkansing (week 8)
+
+**Screenshot(s):**
+![koffiezoekerV5](koffiezoekerV5.JPG)
+![onzekoffieV3](onzekoffieV3.JPG)
 
 ## Eindgesprek (week 7/8)
 

@@ -31,7 +31,7 @@ Ik raakte erg gefrustreerd. Ik heb gevonden wat waarschijnlijk nodig is om mijn 
 3. Bekijken of ik het met een herkansing alsnog kan halen
 
 ### Verslag van meeting
-....
+Ik miste de micro-interactie in mijn code en moet ik in de herkansing toegevoegt hebben. Ook heb ik door de herkansing wat extra tijd gekregen om mijn website af te maken. De vragen die ik had voor het gesprek zijn beantwoord en ik kan weer verder.
 
 ## Voortgang 3 (week 6)
 
